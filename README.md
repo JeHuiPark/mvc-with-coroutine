@@ -26,3 +26,7 @@ suspend function을 감지하고 returnType을 wrapping하는 구현 (아래 두
 
 AsyncManager 상태 변경
 - HandlerMethodReturnValueHandler의 구현체중 지연 연산을 지원하는 구현체들은 `WebAsyncManager.startXXXProcessing` 함수를 호출하여 request 처리 흐름제어에 기여함
+
+
+## 기타 참조
+- https://docs.spring.io/spring-framework/docs/5.3.x/reference/html/web.html#mvc-ann-async
